@@ -185,17 +185,17 @@ if(isset($_GET['edit'])){
                     <div class="col_one_third">
                         <label>SISTEM PENGEREMAN (%) :</label>
                         <input id="sistem_pengereman" name="sistem_pengereman" class="form-control" readonly placeholder="20% - 90%" value="<?php echo $rem; ?>" >
-                        <script>document.getElementById('sistem_pengereman').value ="70";</script>
+                        <script>document.getElementById('sistem_pengereman').value ="45";</script>
                     </div>
                     <div class="col_one_third">
                         <label>KERAPUHAN RANGKA (%) :</label>
                         <input id="rangka_landasan" name="rangka_landasan" class="form-control" readonly placeholder="20% - 90%" value="<?php echo $rangka; ?>">
-                        <script>document.getElementById('rangka_landasan').value ="80";</script>
+                        <script>document.getElementById('rangka_landasan').value ="65";</script>
                     </div>
                     <div class="col_one_third col_last">
                         <label>GAS EMISI (%) :</label>
                         <input id="gas_emisi" name="gas_emisi" class="form-control" readonly placeholder="20% - 90%" value="<?php echo $emisi; ?>">
-                        <script>document.getElementById('gas_emisi').value ="90";</script>
+                        <script>document.getElementById('gas_emisi').value ="75";</script>
                     </div>
 
                     <div class="coll_full nobottommargin">
