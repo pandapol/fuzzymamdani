@@ -65,12 +65,12 @@
 
     <section id="slider" class="force-full-screen full-screen">
 
-        <div class="force-full-screen full-screen dark" style="background-image: url('images/jkt.jpg');background-position: 50% 0;">
+        <div class="force-full-screen full-screen dark" style="background-image: url('images/bandung.jpg');background-position: 50% 0;">
 
             <div class="container clearfix">
                 <div class="slider-caption slider-caption-center">
-                    <h2 data-animate="fadeInDown">Fuzzy Logic</h2>
-                    <p data-animate="fadeInUp" data-delay="400">Suatu proses pengambilan keputusan berbasis aturan yang bertujuan untuk memecahkan masalah, dimana sistem tersebut sulit untuk dimodelkan atau terdapat ambiguitas dan ketidakjelasan yang berlimpah</p>
+                    <h2 style="color:#ffff00" data-animate="fadeInDown">Fuzzy Logic<br>{mamdani}</h2>
+                    <h3 style="color:#ffff00;" data-animate="fadeInUp" data-delay="400">Suatu proses pengambilan keputusan berbasis aturan yang bertujuan untuk memecahkan masalah, dimana sistem tersebut sulit untuk dimodelkan atau terdapat ambiguitas dan ketidakjelasan yang berlimpah</h3>
                     <a data-animate="fadeInUp" data-delay="600" href="input.php" class="button button-border button-light button-rounded button-large noleftmargin nobottommargin" style="margin-top: 30px;">Start Fuzzy</a>
                 </div>
             </div>

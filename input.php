@@ -109,7 +109,7 @@ if(isset($_GET['edit'])){
                         <input id="id_hidden" name="id_hidden" type="hidden" class="form-control" value="<?php echo $id; ?>">
                         <input id="tanggal" name="tanggal" type="hidden" class="form-control" value="<?php echo date("Y-m-d"); ?>">
                         <input id="merek_kendaraan" name="merek_kendaraan" class="form-control" placeholder="BRAND KENDARAAN" readonly value="<?php echo $merek; ?>">
-                       <script>document.getElementById('merek_kendaraan').value ="All New Swift 2019";</script> 
+                       <script>document.getElementById('merek_kendaraan').value ="All New Swift 2020";</script> 
                     </div>
 
                     <div class="col_full">
@@ -185,7 +185,7 @@ if(isset($_GET['edit'])){
                     <div class="col_one_third">
                         <label>SISTEM PENGEREMAN (%) :</label>
                         <input id="sistem_pengereman" name="sistem_pengereman" class="form-control" readonly placeholder="20% - 90%" value="<?php echo $rem; ?>" >
-                        <script>document.getElementById('sistem_pengereman').value ="45";</script>
+                        <script>document.getElementById('sistem_pengereman').value ="80";</script>
                     </div>
                     <div class="col_one_third">
                         <label>KERAPUHAN RANGKA (%) :</label>
@@ -195,7 +195,7 @@ if(isset($_GET['edit'])){
                     <div class="col_one_third col_last">
                         <label>GAS EMISI (%) :</label>
                         <input id="gas_emisi" name="gas_emisi" class="form-control" readonly placeholder="20% - 90%" value="<?php echo $emisi; ?>">
-                        <script>document.getElementById('gas_emisi').value ="75";</script>
+                        <script>document.getElementById('gas_emisi').value ="45";</script>
                     </div>
 
                     <div class="coll_full nobottommargin">

@@ -22,7 +22,7 @@
                         <li class=\"current\"><a href=index.php><div>Home</div></a></li>
                         <li><a href=data_kendaraan.php><div>Data Kendaraan</div></a></li>
                         <li><a href=data_rule.php><div>Data Rule</div></a></li>
-
+                        <li><a href=input.php><div>Input Baru</div></a></li>
                 </ul>
 
             </nav><!-- #primary-menu end -->

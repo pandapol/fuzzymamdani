@@ -3,7 +3,6 @@
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Adiholick" />
 
     <!-- Stylesheets
     ============================================= -->
@@ -103,8 +102,8 @@
                             <li><a href="#tabs-1">Himpunan Fuzzy</a></li>
                             <li><a href="#tabs-2">Rule</a></li>
                             <li><a href="#tabs-3">Linguistik</a></li>
-                            <li><a href="#tabs-4">Perhitungan</a></li>
-                            <li><a href="#tabs-5">Mesin Inferensi</a></li>
+                            <li><a href="#tabs-4">Mesin Inferensi I</a></li>
+                            <li><a href="#tabs-5">Mesin Inferensi II</a></li>
                             <li><a href="#tabs-6">Defuzzyfikasi</a></li>
                         </ul>
 
@@ -407,24 +406,24 @@
                                         <tbody>
                                             <tr>
                                                 <?php foreach ($tidak as $tidak_v){ ?>
-                                                <td>Kondisi is Tidak Layak <?php echo $tidak_v; ?></td>
+                                                <td>Kondisi is Tidak Layak<br>&alpha;=<?php echo $tidak_v; ?></td>
                                                 <?php }
                                                 $tidak_dis = max($tidak)?>
-                                                <td>Dihasilkan Kondisi is Tidak Layak <?php echo $tidak_dis; ?></td>
+                                                <td>Dihasilkan Kondisi is Tidak Layak<br>&alpha;=<?php echo $tidak_dis; ?></td>
                                             </tr>
                                             <tr>
                                                 <?php foreach ($peremajaan as $peremajaan_v){ ?>
-                                                    <td>Kondisi is Peremajaan <?php echo $peremajaan_v; ?></td>
+                                                    <td>Kondisi is Peremajaan<br>&alpha;=<?php echo $peremajaan_v; ?></td>
                                                 <?php }
                                                 $peremajaan_dis = max($peremajaan)?>
-                                                <td>Dihasilkan Kondisi is Peremajaan <?php echo $peremajaan_dis; ?></td>
+                                                <td>Dihasilkan Kondisi is Peremajaan<br>&alpha;=<?php echo $peremajaan_dis; ?></td>
                                             </tr>
                                             <tr>
                                                 <?php foreach ($layak as $layak_v){ ?>
-                                                    <td>Kondisi is Layak <?php echo $layak_v; ?></td>
+                                                    <td>Kondisi is Layak <br>&alpha;=<?php echo $layak_v; ?></td>
                                                 <?php }
                                                 $layak_dis = max($layak)?>
-                                                <td>Dihasilkan Kondisi is Layak <?php echo $layak_dis; ?></td>
+                                                <td>Dihasilkan Kondisi is Layak <br>&alpha;=<?php echo $layak_dis; ?></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -464,7 +463,7 @@
                                 echo "( (" . implode(" + ",$center_tidak) . ") * " . $tidak_dis . ") +";
                                 echo "( (" . implode(" + ",$center_peremajaan) . ") * " . $peremajaan_dis . ") +";
                                 echo "( (" . implode(" + ",$center_layak) . ") * " . $layak_dis . ") <br>";
-                                echo "------------------------------------------- <br>";
+                                echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>";
                                 echo implode(" + ",$pembagi_tidak) . " + ";
                                 echo implode(" + ",$pembagi_peremajaan) . " + ";
                                 echo implode(" + ",$pembagi_layak) . " <br>";
